@@ -184,6 +184,10 @@
         <id>nexus-releases</id>
         <url>http://13.233.174.37:32768/repository/maven-releases/</url>
     </repository>
+    <snapshotRepository>
+        <id>nexus-snapshots</id>
+        <url>http://13.233.174.37:32768/repository/maven-snapshots/</url>
+    </snapshotRepository>
 </distributionManagement>
   <build>
     <plugins>
